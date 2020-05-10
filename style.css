@@ -56,11 +56,11 @@ li {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-/* .fix {
-    position: fixed;
-    top: auto;
-    right: auto;
-}  */
+.fix {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+} 
 .content {
     text-align: justify;
     margin: 0px 160px;
@@ -99,6 +99,12 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 }
+.upcoming {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 h2 {
     color: #2755E9;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -119,8 +125,7 @@ h2 {
 }
 
 .fontcolor {
-    color: 
-    white;
+    color: white;
 }
 .one{
     display: inline-block;
@@ -131,6 +136,12 @@ h2 {
     position: absolute;
     right: 130px;
 
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .image {
     width: 220px;
@@ -184,5 +195,14 @@ h3 {
 }
 .color {
     color: yellowgreen;
+}
+.end {
+        background-color: royalblue;
+        height: 50px;
+        width: 100%;
+        position: relative;
+        top: 0px;
+
+
 }
 
